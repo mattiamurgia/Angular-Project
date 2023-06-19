@@ -8,6 +8,7 @@ import { serviceComunication } from 'src/app/service/comunicationService/service
 })
 export class Component2Component implements OnInit {
   service = inject(serviceComunication);
+
   dataComponent2!: string;
 
   ngOnInit(): void {

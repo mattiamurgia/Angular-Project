@@ -1,0 +1,11 @@
+{
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "vs-code-prettier-eslint.prettierLast": true,
+    "typescript.format.semicolons": "insert",
+    "git-blame.gitWebUrl": "",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vscode-as-git-mergetool.settingsAssistantOnStartup": false,
+    "compile-hero.disable-compile-files-on-did-save-code": false
+}

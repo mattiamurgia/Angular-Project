@@ -3,7 +3,9 @@ import { serviceComunication } from 'src/app/service/comunicationService/service
 
 @Component({
   selector: 'app-component1',
+
   templateUrl: './component1.component.html',
+
   styleUrls: ['./component1.component.scss'],
 })
 export class Component1Component implements OnInit {
@@ -13,6 +15,7 @@ export class Component1Component implements OnInit {
 
   ngOnInit(): void {
     console.log('ng');
+
     this.service.serviceData.next(this.dataComponent1);
   }
 }
